@@ -1,0 +1,45 @@
+# Images and large media (NEVER add to git)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.iso
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.zip
+*.tar.gz
+*.7z
+
+# Personal directories
+Pictures/
+Downloads/
+Documents/
+Videos/
+screenshots/
+Wallpapers/
+
+# Cache and temp
+.cache/
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Sensitive data
+.config/pulse/cookie
+.config/qBittorrent/
+.config/BraveSoftware/
+.config/yay/
+.secrets
+.env
+*.key
+*.pem
+*.crt
+
+# Git
+.git/
+*.pack

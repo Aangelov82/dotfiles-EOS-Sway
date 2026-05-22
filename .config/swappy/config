@@ -1,0 +1,7 @@
+[Default]
+save_dir = ~/Pictures/Screenshots
+save_filename_format = screenshot_%Y-%m-%d_%H-%M-%S.png
+show_panel = true
+line_size = 3
+text_size = 14
+text_font = sans

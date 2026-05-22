@@ -1,0 +1,164 @@
+{
+    // ============================================
+    // ОСНОВНИ НАСТРОЙКИ
+    // ============================================
+    "layer": "top",
+    "position": "top",
+    "height": 36,
+    "spacing": 4,
+    "gtk-layer-shell": false,
+
+    // ============================================
+    // МОДУЛИ ПО ПОЗИЦИИ
+    // ============================================
+    "modules-left": [
+        "sway/workspaces",
+        "sway/window"
+    ],
+
+    "modules-center": [
+        "custom/network"
+    ],
+
+    "modules-right": [
+        "idle_inhibitor",
+        "custom/weather",
+        "cpu",
+        "memory",
+        "temperature",
+        "battery",
+        "pulseaudio",
+	"clock",
+        "bluetooth",
+        "tray",
+    ],
+
+    // ============================================
+    // КОНФИГУРАЦИЯ НА МОДУЛИТЕ
+    // ============================================
+
+    // ----- РАБОТНИ ПЛОЩАДКИ -----
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": false,
+        "format": "{name}",
+        "format-icons": {
+            "focused": "●",
+            "visible": "○",
+            "urgent": "⚠️",
+            "default": ""
+        }
+    },
+
+    // ----- АКТИВЕН ПРОЗОРЕЦ -----
+    "sway/window": {
+        "max-length": 60,
+        "separate-outputs": true,
+        "tooltip-format": "{title}"
+    },
+
+    // ----- ЧАСОВНИК -----
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%d.%m.%Y}",
+        "tooltip-format": "{:%A, %d %B %Y}",
+        "interval": 60
+    },
+
+    // ----- IDLE INHIBITOR -----
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        },
+        "tooltip-format-activated": "Idle Inhibitor Activated\n(Screen will NOT lock)",
+        "tooltip-format-deactivated": "Idle Inhibitor Deactivated\n(Screen will lock after 5 min)",
+        "on-click": "~/.config/waybar/scripts/idle_inhibitor_toggle.sh"
+    },
+
+    // ----- ПРОЦЕСОР -----
+    "cpu": {
+        "interval": 2,
+        "format": " {usage}%",
+        "tooltip": true,
+        "tooltip-format": "AVG: {avg_frequency}GHz\nLOAD: {load}"
+    },
+
+    // ----- ПАМЕТ -----
+    "memory": {
+        "interval": 2,
+        "format": "󰾆 {percentage}%",
+        "tooltip": true,
+        "tooltip-format": "RAM: {used:0.1f}/{total:0.1f} GiB"
+    },
+
+    // ----- ТЕМПЕРАТУРА -----
+    "temperature": {
+        "interval": 5,
+        "critical-threshold": 80,
+        "format": " {temperatureC}°C",
+        "format-critical": " {temperatureC}°C",
+        "tooltip": true
+    },
+
+    // ----- МРЕЖА (custom скрипт със стрелки) -----
+    "custom/network": {
+        "exec": "~/.config/waybar/scripts/network-speed.sh",
+        "interval": 1,
+        "format": "{}",
+        "tooltip": true,
+        "tooltip-format": "Download/Upload speed"
+    },
+
+
+    // ----- БАТЕРИЯ -----
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-charging": "⚡ {capacity}%",
+        "format-plugged": "🔌 {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "interval": 10
+    },
+
+    // ----- ЗВУК -----
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰝟 Muted",
+        "format-icons": {
+            "headphone": "󰋋",
+            "hands-free": "󰋋",
+            "headset": "󰋎",
+            "phone": "󰂯",
+            "portable": "󰋋",
+            "car": "󰄷",
+            "default": ["󰕿", "󰖀", "󰕾"]
+        },
+        "scroll-step": 5,
+        "on-click": "pavucontrol",
+        "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+
+    // ----- BLUETOOTH -----
+    "bluetooth": {
+        "format": "",
+        "format-disabled": "",
+        "format-off": "󰂲",
+        "format-connected": "󰂯",
+        "tooltip-format": "Bluetooth {status}\n\n{num_connections} connected device(s)\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}",
+        "on-click": "blueman-manager",
+        "on-click-right": "bluetoothctl power toggle"
+    },
+
+    // ----- СИСТЕМЕН ТРЕЙ -----
+    "tray": {
+        "icon-size": 18,
+        "spacing": 8
+    },
+
+    "custom/weather": {
+        "exec": "waybar-weather -config ~/.config/waybar-weather/config.yaml",
+        "return-type": "json"
+    }
+}

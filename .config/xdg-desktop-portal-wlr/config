@@ -1,0 +1,3 @@
+output_name=eDP-1
+screencast=yes
+chooser_cmd=wofi --show dmenu

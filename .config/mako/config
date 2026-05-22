@@ -1,0 +1,38 @@
+# === ОСНОВНИ НАСТРОЙКИ ===
+# Колко милисекунди да се показва известие (8 секунди е златната среда)
+default-timeout=8000
+
+# Максимален брой видими известия
+max-visible=5
+
+# Къде да се показват (top-right е стандарт)
+anchor=top-right
+
+# Размер и външен вид
+width=300
+margin=10
+padding=8
+border-radius=8
+font=monospace 11
+
+# === ЦВЕТОВЕ (към твоя Waybar стил) ===
+background-color=#2d2d2dFF
+text-color=#e5e5e5FF
+border-color=#3b82f6FF
+
+# === ПОВЕДЕНИЕ ===
+# Групирай известията от едно приложение
+group-by=app-name
+
+# Показвай икони
+icons=1
+max-icon-size=32
+
+# === РАЗШИРЕНИ НАСТРОЙКИ ===
+# За по-важни известия можеш да зададеш различен timeout
+[urgency=high]
+default-timeout=15000
+background-color=#eb4d3bFF
+
+[urgency=low]
+default-timeout=4000

@@ -1,0 +1,195 @@
+/* ============================================
+   ОСНОВНИ НАСТРОЙКИ
+   ============================================ */
+* {
+    font-family: "JetBrainsMono Nerd Font Propo", "Noto Sans", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(20, 20, 20, 0.94);
+    color: #e5e5e5;
+    transition: background-color 0.2s;
+}
+
+/* ============================================
+   РАБОТНИ ПЛОЩАДКИ
+   ============================================ */
+#workspaces button {
+    padding: 0 8px;
+    margin: 4px 3px;
+    background: #2d2d2d;
+    border-radius: 8px;
+    transition: all 0.2s;
+    color: #9ca3af;
+}
+
+#workspaces button.focused {
+    color: #ffffff;
+    background: #2563eb;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#workspaces button.visible {
+    color: #f8fafc;
+    background: #334155;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d3b;
+    color: white;
+}
+
+#workspaces button:hover {
+    background: #3b82f6;
+    color: white;
+}
+
+/* ============================================
+   МОДУЛИ - ОСНОВНИ
+   ============================================ */
+#clock,
+#cpu,
+#memory,
+#temperature,
+#custom-network,
+#pulseaudio,
+#battery,
+#tray,
+#bluetooth,
+#idle_inhibitor {
+    padding: 0 8px;
+    margin: 4px 2px;
+    background: transparent;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+/* ============================================
+   МРЕЖА И BLUETOOTH
+   ============================================ */
+#custom-network {
+    color: #60a5fa;
+}
+
+#bluetooth {
+    color: #3b82f6;
+}
+
+#bluetooth.off {
+    color: #6b7280;
+}
+
+#bluetooth.connected {
+    color: #3b82f6;
+}
+
+/* ============================================
+   IDLE INHIBITOR
+   ============================================ */
+#idle_inhibitor.activated {
+    color: #3b82f6;
+}
+
+#idle_inhibitor.deactivated {
+    color: #9ca3af;
+}
+
+/* ============================================
+   ТЕМПЕРАТУРА
+   ============================================ */
+#temperature {
+    color: #fbbf24;
+}
+
+#temperature.critical {
+    color: #ef4444;
+}
+
+/* ============================================
+   ПРОЦЕСОР И ПАМЕТ
+   ============================================ */
+#cpu {
+    color: #22c55e;
+}
+
+#memory {
+    color: #8b5cf6;
+}
+
+/* ============================================
+   БАТЕРИЯ
+   ============================================ */
+#battery {
+    color: #22c55e;
+}
+
+#battery.warning {
+    color: #f59e0b;
+}
+
+#battery.critical {
+    color: #ef4444;
+}
+
+#battery.charging {
+    color: #22c55e;
+}
+
+/* ============================================
+   ЗВУК
+   ============================================ */
+#pulseaudio {
+    color: #8b5cf6;
+}
+
+#pulseaudio.muted {
+    color: #6b7280;
+}
+
+/* ============================================
+   ТАСКБАР / ТРЕЙ
+   ============================================ */
+#tray {
+    margin-right: 8px;
+}
+
+/* ============================================
+   TOOLTIP
+   ============================================ */
+tooltip {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 8px 12px;
+}
+
+tooltip label {
+    color: white;
+}
+
+/* ============================================
+   ВРЕМЕ
+   ============================================ */
+
+#custom-weather {
+    padding: 0 15px;
+    margin: 4px 2px;
+    background: #3a3a3a;
+    border-radius: 8px;
+    color: #60a5fa;
+
+    font-family:
+        "Noto Sans",
+        "Noto Color Emoji",
+        "Symbols Nerd Font",
+        sans-serif;
+}

@@ -1,0 +1,9 @@
+#!/bin/bash
+bat0=$(cat /sys/class/power_supply/BAT0/capacity 2>/dev/null)
+bat1=$(cat /sys/class/power_supply/BAT1/capacity 2>/dev/null)
+status=$(cat /sys/class/power_supply/BAT0/status 2>/dev/null)
+if [ -n "$bat0" ]; then
+    echo "🔋 ${bat0}% (${status})"
+elif [ -n "$bat1" ]; then
+    echo "🔋 ${bat1}% (${status})"
+fi

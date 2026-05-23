@@ -248,3 +248,6 @@ swaylock-effects
 waybar-weather
 wlogout
 zoom
+auto-cpufreq
+ffmpegthumbnailer
+tumbler

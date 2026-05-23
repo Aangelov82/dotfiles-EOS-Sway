@@ -70,6 +70,13 @@ done
 [ -d "$DOTFILES_DIR/.local/bin" ] && cp -r "$DOTFILES_DIR/.local/bin"/* ~/.local/bin/ 2>/dev/null
 chmod +x ~/.local/bin/* 2>/dev/null
 
+# Допълнителни конфигурации (след основния for цикъл)
+[ -d "$DOTFILES_DIR/.config/gthumb" ] && ln -sf "$DOTFILES_DIR/.config/gthumb" ~/.config/
+[ -d "$DOTFILES_DIR/.config/obs-studio" ] && ln -sf "$DOTFILES_DIR/.config/obs-studio" ~/.config/
+[ -d "$DOTFILES_DIR/.config/s-tui" ] && ln -sf "$DOTFILES_DIR/.config/s-tui" ~/.config/
+[ -d "$DOTFILES_DIR/.config/waybar-weather" ] && ln -sf "$DOTFILES_DIR/.config/waybar-weather" ~/.config/
+[ -d "$DOTFILES_DIR/.config/Mousepad" ] && ln -sf "$DOTFILES_DIR/.config/Mousepad" ~/.config/
+
 # ============================================================================
 # Setup ZSH
 # ============================================================================

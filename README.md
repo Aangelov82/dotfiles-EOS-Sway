@@ -59,3 +59,43 @@ bash
 cd ~/dotfiles && ./update.sh
 License
 MIT - Free to use and modify
+
+## Installation Options
+
+### Base Installation (for any system)
+```bash
+git clone https://github.com/Aangelov82/dotfiles-EOS-Sway.git ~/dotfiles
+cd ~/dotfiles && ./install.sh
+ThinkPad X390 Full Setup
+bash
+# First install base
+./install.sh
+
+# Then add X390 specific features
+./install-x390.sh
+What Each Script Does
+install.sh (Base)
+Core packages (Sway, Waybar, Kitty, etc.)
+
+Basic configuration symlinks
+
+ZSH setup
+
+Audio services
+
+install-x390.sh (ThinkPad X390 only)
+TLP (battery optimization)
+
+throttled (CPU fix)
+
+ZRAM (compressed swap)
+
+File manager extensions (thumbnails, GVFS)
+
+brightnessctl, fuzzel
+
+X390 specific config overrides
+
+Hardware Detection
+The base installer works on any hardware.
+Run install-x390.sh ONLY on ThinkPad X390 for full optimization.

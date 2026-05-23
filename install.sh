@@ -97,17 +97,6 @@ systemctl --user enable --now pipewire pipewire-pulse wireplumber 2>/dev/null
 
 echo -e "\n${GREEN}✅ Base installation complete!${NC}"
 
-# Auto-detect ThinkPad X390
-if [ -f /sys/devices/virtual/dmi/id/product_name ]; then
-    PRODUCT=$(cat /sys/devices/virtual/dmi/id/product_name)
-    if echo "$PRODUCT" | grep -qi "ThinkPad X390"; then
-        echo -e "\n${GREEN}========================================${NC}"
-        echo -e "${GREEN}✅ ThinkPad X390 Detected!${NC}"
-        echo -e "${GREEN}========================================${NC}"
-        if [ -f "$DOTFILES_DIR/install-x390.sh" ]; then
-            "$DOTFILES_DIR/install-x390.sh"
-        else
-            echo -e "${RED}❌ install-x390.sh not found!${NC}"
         fi
     fi
 fi

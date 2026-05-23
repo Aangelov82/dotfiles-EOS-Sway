@@ -1,0 +1,9 @@
+brave-bin
+bridge-utils
+jmtpfs
+neofetch
+onlyoffice-bin
+swaylock-effects
+waybar-weather
+wlogout
+zoom

@@ -43,3 +43,15 @@ Wallpapers/
 # Git
 .git/
 *.pack
+
+# Sensitive/private configs
+.config/BraveSoftware/
+.config/dconf/
+.config/qBittorrent/
+.config/yay/
+.config/zoom/
+.config/onlyoffice/   # ако съдържа лицензи
+
+# Large cache files
+.config/obs-studio/logs/
+.config/obs-studio/profiler_data/

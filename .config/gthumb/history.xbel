@@ -3,61 +3,61 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/userx" added="2026-05-23T18:51:20.596773Z" modified="2026-05-23T18:51:20.596816Z" visited="2026-05-23T18:51:20.596774Z">
+  <bookmark href="file:///home/userx" added="2026-05-23T18:57:46.999893Z" modified="2026-05-23T18:57:46.999906Z" visited="2026-05-23T18:57:46.999895Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:51:20.596778Z" count="1"/>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:57:46.999900Z" count="1"/>
         </bookmark:applications>
         <bookmark:private/>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/userx/Pictures/Wallpapers" added="2026-05-23T18:51:20.596822Z" modified="2026-05-23T18:51:20.596833Z" visited="2026-05-23T18:51:20.596823Z">
+  <bookmark href="file:///home/userx/Pictures/Wallpapers" added="2026-05-23T18:57:46.999911Z" modified="2026-05-23T18:57:46.999922Z" visited="2026-05-23T18:57:46.999912Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:51:20.596831Z" count="1"/>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:57:46.999919Z" count="1"/>
         </bookmark:applications>
         <bookmark:private/>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/userx/dotfiles/Pictures/Wallpapers" added="2026-05-23T18:51:20.596836Z" modified="2026-05-23T18:51:20.596844Z" visited="2026-05-23T18:51:20.596837Z">
+  <bookmark href="file:///home/userx/dotfiles/Pictures/Wallpapers" added="2026-05-23T18:57:46.999926Z" modified="2026-05-23T18:57:46.999937Z" visited="2026-05-23T18:57:46.999927Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:51:20.596842Z" count="1"/>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:57:46.999934Z" count="1"/>
         </bookmark:applications>
         <bookmark:private/>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/userx/Pictures/Screenshots" added="2026-05-23T18:51:20.596847Z" modified="2026-05-23T18:51:20.596855Z" visited="2026-05-23T18:51:20.596847Z">
+  <bookmark href="file:///home/userx/Pictures/Screenshots" added="2026-05-23T18:57:46.999941Z" modified="2026-05-23T18:57:46.999951Z" visited="2026-05-23T18:57:46.999942Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:51:20.596849Z" count="1"/>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:57:46.999943Z" count="1"/>
         </bookmark:applications>
         <bookmark:private/>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/userx/dotfiles/Pictures/screenshots" added="2026-05-23T18:51:20.596858Z" modified="2026-05-23T18:51:20.596866Z" visited="2026-05-23T18:51:20.596858Z">
+  <bookmark href="file:///home/userx/dotfiles/Pictures/screenshots" added="2026-05-23T18:57:46.999955Z" modified="2026-05-23T18:57:46.999965Z" visited="2026-05-23T18:57:46.999956Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:51:20.596859Z" count="1"/>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:57:46.999957Z" count="1"/>
         </bookmark:applications>
         <bookmark:private/>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///run/media/userx/BAFA674EFA67064B/Linux/My%20EOS%20Sway%20configuration%2016.05.2026/Pictures/Wallpapers" added="2026-05-23T18:51:20.596871Z" modified="2026-05-23T18:51:20.596879Z" visited="2026-05-23T18:51:20.596871Z">
+  <bookmark href="file:///run/media/userx/BAFA674EFA67064B/Linux/My%20EOS%20Sway%20configuration%2016.05.2026/Pictures/Wallpapers" added="2026-05-23T18:57:46.999972Z" modified="2026-05-23T18:57:46.999982Z" visited="2026-05-23T18:57:46.999972Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:51:20.596873Z" count="1"/>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2026-05-23T18:57:46.999974Z" count="1"/>
         </bookmark:applications>
         <bookmark:private/>
       </metadata>

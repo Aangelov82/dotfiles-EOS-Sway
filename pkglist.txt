@@ -251,3 +251,4 @@ zoom
 auto-cpufreq
 ffmpegthumbnailer
 tumbler
+ly
